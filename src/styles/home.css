@@ -1,0 +1,13 @@
+.text-animate{
+    animation: text-animation 1.5s ease-out infinite;
+    /* transform: translateY(100%); */
+}
+
+@keyframes text-animation {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-42px);
+    }
+}
