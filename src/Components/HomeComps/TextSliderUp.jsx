@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
 export default function TextSliderUp() {
-    const [text, setText] = useState(['textone','texttwo','textthree'])
+    // const [text, setText] = useState(['textone','texttwo','textthree'])
+    const options = ['expands your network','develops new skills','launches new careers','creates new hobbies','opens new doors','expands your network','develops new skills','launches new careers','creates new hobbies','opens new doors']
     return (
-        <div className="h-[20px] w-full overflow-hidden">
-            <div className='text-animate'>
-                <h4>text one</h4>
-                <h4>text two</h4>
+        <div className="h-[34px] w-full overflow-hidden">
+            <div className='text-animate flex flex-col'>
+                {options.map((option) => {
+                    return <h4>{option}</h4>
+                })}
             </div>
         </div>
     )
