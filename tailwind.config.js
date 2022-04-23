@@ -4,12 +4,12 @@ module.exports = {
   ],
   theme: {
     colors:{
-      'cus-darkgreen': '#45c14e',
-      'cus-lightgreen':'#dff8eb',
-      'cus-cyan':'#4ee8e2',
-      'cus-deepblack': '#002c43',
-      'cus-black':'#00324b',
-      'cus-white':'#fcfcfc'
+      'green': '#45c14e',
+      'lightgreen':'#dff8eb',
+      'cyan':'#4ee8e2',
+      'deepblack': '#002c43',
+      'black':'#00324b',
+      'white':'#fcfcfc'
     },
     extend: {},
   },
