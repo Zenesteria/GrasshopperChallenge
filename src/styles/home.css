@@ -8,31 +8,31 @@
         transform: translateY(0);
     }
     20%{
-        transform: translateY(-10%);
+        transform: translateY(-24px);
     }
     30%{
-        transform: translateY(-20%);
+        transform: translateY(-48px);
     }
     40%{
-        transform: translateY(-30%);
+        transform: translateY(-72px);
     }
     50%{
-        transform: translateY(-40%);
+        transform: translateY(-96px);
     }
     60%{
-        transform: translateY(-50%);
+        transform: translateY(-120px);
     }
     70%{
-        transform: translateY(-60%);
+        transform: translateY(-144px);
     }
     80%{
-        transform: translateY(-70%);
+        transform: translateY(-168px);
     }
     90%{
-        transform: translateY(-80%);
+        transform: translateY(-192px);
     }
     100%{
-        transform: translateY(-90%);
+        transform: translateY(-216px);
     }
 }
 
