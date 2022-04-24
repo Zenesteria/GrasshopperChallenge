@@ -6,8 +6,8 @@ export default function TextSliderUp() {
     return (
         <div className="h-[34px] w-full overflow-hidden">
             <div className='text-animate flex flex-col'>
-                {options.map((option) => {
-                    return <h4>{option}</h4>
+                {options.map((option, index) => {
+                    return <h4 key={index}>{option}</h4>
                 })}
             </div>
         </div>

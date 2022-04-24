@@ -46,3 +46,64 @@
     height: 60px;
     color: #45c14e;
 }
+
+.slick-current > div > div{
+    box-shadow: 0 2px 5px  rgb(0,0,0,0.2);
+    opacity: 1 !important;
+}
+
+
+
+.slick-dots li button::before {
+    content: '' !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100%;
+    background-color: #002c43;
+}
+
+.slick-dots li:hover button::before{
+    background-color: #002c43;
+}
+
+.slick-dots li{
+    margin: 0 0.3rem !important;
+}
+
+
+
+/* GOOGLE PLAY SECTION */
+.cloudOne{
+    animation: cloudMovementOne 60s linear infinite alternate;
+}
+.cloudTwo{
+    animation: cloudMovementTwo 65s linear 10s infinite alternate;
+}
+.cloudThree{
+    animation: cloudMovementThree 60s linear infinite alternate;
+}
+
+@keyframes cloudMovementOne {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1600px);
+    }
+}
+@keyframes cloudMovementTwo {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1500px);
+    }
+}
+@keyframes cloudMovementThree {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1600px);
+    }
+}

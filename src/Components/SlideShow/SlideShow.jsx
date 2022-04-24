@@ -10,10 +10,15 @@ export default function Slides() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 4000,
     slidesToShow: 3,
     centerMode: true,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: false,
+    appendDots: dots => (
+      <div>
+        <ul className='dots' style={{ margin: "0px" }}> {dots} </ul>
+      </div>)
   };
   return (
     <div className='w-full h-full flex flex-col items-center justify-center my-5 overflow-hidden'>
@@ -21,9 +26,7 @@ export default function Slides() {
             <Slider {...settings}>
               {SliderData.map((data) => {
                   return(
-                    <div>
-                      <Slide data={data}/>
-                    </div>
+                      <Slide data={data} key={data.id}/>
                   )
               })}
             </Slider>

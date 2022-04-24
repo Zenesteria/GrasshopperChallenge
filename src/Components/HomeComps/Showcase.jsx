@@ -36,7 +36,7 @@ export default function Showcase() {
                     <TextSliderUp/>
                 </div>
             </div>
-            <Link exact to='/start-coding-today' className='text-white rounded-full text-[1.1rem] bg-green w-fit px-10 py-4 font-bold'>Start Coding Today</Link>
+            <Link to='/start-coding-today' className='text-white rounded-full text-[1.1rem] bg-green w-fit px-10 py-4 font-bold'>Start Coding Today</Link>
         </div>
     </div>
   )
