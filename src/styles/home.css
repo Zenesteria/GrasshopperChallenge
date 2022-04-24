@@ -35,3 +35,14 @@
         transform: translateY(-90%);
     }
 }
+
+
+
+/* Slide styles */
+.caption::before{
+    content:open-quote;
+    display: block;
+    font-size: 4rem;
+    height: 60px;
+    color: #45c14e;
+}

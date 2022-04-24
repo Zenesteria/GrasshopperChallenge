@@ -9,6 +9,7 @@ body {
   font-family: 'Raleway',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  quotes: '\201c' '\201d';
 }
 
 code {
