@@ -8,31 +8,31 @@
         transform: translateY(0);
     }
     20%{
-        transform: translateY(-24px);
+        transform: translateY(calc(var(--height)));
     }
     30%{
-        transform: translateY(-48px);
+        transform: translateY(calc(var(--height)*2));
     }
     40%{
-        transform: translateY(-72px);
+        transform: translateY(calc(var(--height)*3))
     }
     50%{
-        transform: translateY(-96px);
+        transform: translateY(calc(var(--height)*4));
     }
     60%{
-        transform: translateY(-120px);
+        transform: translateY(calc(var(--height)*5));
     }
     70%{
-        transform: translateY(-144px);
+        transform: translateY(calc(var(--height)*6));
     }
     80%{
-        transform: translateY(-168px);
+        transform: translateY(calc(var(--height)*7));
     }
     90%{
-        transform: translateY(-192px);
+        transform: translateY(calc(var(--height)*8));
     }
     100%{
-        transform: translateY(-216px);
+        transform: translateY(calc(var(--height)*9));
     }
 }
 

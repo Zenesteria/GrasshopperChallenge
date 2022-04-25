@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Bg() {
   return (
-    <div className="absolute top-0 left-0 w-full h-full z-[-1] overflow-hidden">
+    <div className="absolute bottom-0 lg:top-0 left-0 w-full h-[70%] lg:h-full z-[-1] overflow-hidden">
 
         {/* Macbook */}
         <img src="/images/macbook.png" alt="macbook" className=' w-[32%] absolute left-[33%] top-[32%] z-30' />
