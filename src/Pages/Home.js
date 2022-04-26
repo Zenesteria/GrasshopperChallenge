@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // import Showcase from '../Components/HomeComps/Showcase/Showcase'
-import Stories from '../Components/HomeComps/Stories';
+// import Stories from '../Components/HomeComps/Stories';
 // import SubShowcase from '../Components/HomeComps/SubShowcase';
-// import CodeBanner from '../Components/HomeComps/CodeBanner';
+import CodeBanner from '../Components/HomeComps/CodeBanner';
 // import GooglePlay from '../Components/HomeComps/GooglePlay';
 
 
@@ -16,8 +16,8 @@ export default function Home() {
     <div className='w-full h-fit'>
         {/* <Showcase/> */}
         {/* <SubShowcase/> */}
-        <Stories/>
-        {/* <CodeBanner/> */}
+        {/* <Stories/> */}
+        <CodeBanner/>
         {/* <GooglePlay/> */}
     </div>
   )

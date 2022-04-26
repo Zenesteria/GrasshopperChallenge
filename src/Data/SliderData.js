@@ -14,14 +14,14 @@ const SliderData = [
 
     },
     {
-        id: 1,
+        id: 3,
         caption: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium alias iste voluptatibus. Hic provident harum molestiae quas! Totam, itaque aperiam!',
         name:'Zhamal',
         img:'/images/user3.jpg',
 
     },
     {
-        id: 1,
+        id: 4,
         caption: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium alias iste voluptatibus. Hic provident harum molestiae quas! Totam, itaque aperiam!',
         name:'Alverson',
         img:'/images/user4.jpg',
