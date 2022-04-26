@@ -3,9 +3,9 @@ import SiteHighlights from './SiteHighlights'
 
 export default function SubShowcase() {
   return (
-    <div className='w-full flex flex-col h-fit bg-lightgreen text-deepblack items-center'>
-        <h1 className=' text-center text-[2rem] font-bold'>The best way to start your coding adventure.</h1>
-        <div className="grid grid-cols-3 gap-10 w-[80%] h-[60vh] my-5 p-5">
+    <div className='w-full p-10 flex flex-col h-fit bg-lightgreen text-deepblack items-center'>
+        <h1 className=' text-center font-bold' style={{fontSize:'calc(1.5rem + 0.4vw)'}}>The best way to start your coding adventure.</h1>
+        <div className="flex flex-wrap justify-center items-center w-[85%] h-fit my-5 p-5">
             <SiteHighlights 
                 caption='Learn with fun, quick lessons on your phone that teach you to write real JavaScript.'
                 img='adventure__waving.svg'

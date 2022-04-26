@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div className='w-full flex flex-col justify-around items-center h-fit min-h-[300px] text-white bg-deepblack p-10'>
-        <ul className="grid w-[70%] grid-cols-3 h-fit text-[1.1rem]">
+        <ul className="grid w-[70%] grid-cols-2 gap-3 text-center md:text-left md:grid-cols-3 h-fit text-[0.7rem] sm:text-[0.9rem] lg:text-[1.1rem]">
             <FooterLink text='Home'/>
             <FooterLink text='Email Us'/>
             <FooterLink text='Terms of Service'/>
